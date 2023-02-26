@@ -1,2 +1,2 @@
 pytelegrambotapi
-dotenv
+python-dotenv
