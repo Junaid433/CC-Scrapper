@@ -15,4 +15,5 @@ command | example
 /scrsk | /scrsk heckerdrops 100
 ```
 
-Reffer to the [api docs] (https://docs.heckerdrops.live/) for more information.
+Refer to the [API docs](https://docs.heckerdrops.live/) for more information.
+
