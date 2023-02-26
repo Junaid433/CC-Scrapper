@@ -34,8 +34,8 @@ def scrape_cc(message):
             bin = parts[3]
         while True:
             raw = requests.get(
-            'https://5000-junaid433-heckermanbot-om3z80ijvpl.ws-us88.gitpod.io/scrapper?chat_id='+chat_id+'&limit='+limit+'&bin='+bin+'',
-            timeout = 60 
+            'http://heckerdrops.live:5000/scrapper?chat_id='+chat_id+'&limit='+limit+'&bin='+bin+'',
+            timeout = 120 
             ).json() 
             if 'This event loop is already running' in raw:
                 time.sleep(5)
@@ -65,8 +65,8 @@ def scrape_sk(message):
         limit = parts[2]
         while True:
             raw = requests.get(
-            'https://5000-junaid433-heckermanbot-om3z80ijvpl.ws-us88.gitpod.io/skscrapper?chat_id='+chat_id+'&limit='+limit,
-            timeout = 60 
+            'http://heckerdrops.live:5000/skscrapper?chat_id='+chat_id+'&limit='+limit,
+            timeout = 120 
             ).json() 
             if 'This event loop is already running' in raw:
                 time.sleep(5)
