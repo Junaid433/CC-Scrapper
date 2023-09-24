@@ -1,4 +1,7 @@
 # CC-Scrapper
+
+## API is dead now, please do not use this bot.
+
 A Telegram bot to scrape credit card numbers, stripe secret keys from telegram chats.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/D97FDp?referralCode=VjE5C9)
